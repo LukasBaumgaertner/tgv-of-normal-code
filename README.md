@@ -7,11 +7,11 @@ docker build -t tgv_of_normal .
 
 To add orientation to the .obj files for the respective testcases, run e.g.
 ```bash
-docker run -ti --rm -v $(pwd):/home/fenics/shared -w /home/fenics/shared/Fandisk mydolfinadjoint python3 add_orientation.py
+docker run -ti --rm -v $(pwd):/home/fenics/shared -w /home/fenics/shared/Fandisk tgv_of_normal python3 add_orientation.py
 ```
 Afterwards, to run an experiment run e.g. 
 ```bash
-docker run -ti --rm -v $(pwd):/home/fenics/shared -w /home/fenics/shared/Fandisk/Newton mydolfinadjoint python3 test.py
+docker run -ti --rm -v $(pwd):/home/fenics/shared -w /home/fenics/shared/Fandisk/Newton tgv_of_normal python3 test.py
 ```
 
 Afterwards, the results can be viewed in paraview.
