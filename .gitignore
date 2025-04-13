@@ -1,0 +1,13 @@
+__pycache__/
+.dijitso_cache/
+
+*.xdmf
+*.h5
+*.vtu
+*.txt
+*.msh
+*.pvd
+*.stl
+
+
+
