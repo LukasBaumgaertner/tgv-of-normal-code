@@ -1,4 +1,8 @@
-This repository contains code for mesh denoising with TGV of the normal.
+This repository contains code for mesh denoising with TGV of the normal for the Paper
+
+Total Generalized Variation of the Normal Vector Field and Applications to Mesh Denoising (https://arxiv.org/abs/2507.13530)  <br>
+by L. Baumgärtner, R. Bergmann, R. Herzog, S. Schmidt, M. Weiß.
+
 The code requires the latest installation of (legacy) fenics.
 In order to resolve the dependencies, it is advised to run the code inside a Docker container, following the included `Dockerfile`: 
 ```bash
